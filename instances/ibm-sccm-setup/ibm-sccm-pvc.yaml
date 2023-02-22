@@ -18,5 +18,5 @@ spec:
   resources:
     requests:
       storage: 1Gi
-  storageClassName: managed-nfs-storage
+  storageClassName: ocs-storagecluster-cephfs
   volumeMode: Filesystem
